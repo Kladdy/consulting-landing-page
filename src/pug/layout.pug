@@ -27,15 +27,26 @@ html(lang='sv')
         // Custom scripts
         script(src="js/scripts.js")
 
+        // i18next
+        script(src='https://unpkg.com/i18next/dist/umd/i18next.min.js')
+
         block head
             
             
-    body
+    body(style="background-color: #212529")
+        .text-white.d-flex.justify-content-center
+            .mt-2
+                div.mx-4.i18nelement(data-i18n='languages.current') Loading
+                div
+                    label Change language:
+                    select(id='langSelector' disabled='true' name='lang')
+                        option.i18nelement(value='sv' data-i18n='languages.sv') Swedish1
+                        option.i18nelement(value='en' data-i18n='languages.en') English1
+                
+            block content
 
-        block content
+            // Bootstrap core JS
+            script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
 
-        // Bootstrap core JS
-        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
-
-        // Core theme JS
-        script(src='js/scripts.js')
+            // i18
+            script(src='js/i18.js')
