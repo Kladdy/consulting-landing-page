@@ -11286,49 +11286,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.smab-link a {
-  color: inherit;
-}
-.smab-link a:hover {
-  color: #dddddd;
-  cursor: pointer;
-}
-
-.nav-link.active {
-  color: #F8F8F8;
-  background-color: #c067b9;
-  border-radius: 5px;
-}
-
-a.nav-link {
-  color: #F8F8F8;
-}
-
-a.nav-link:hover {
-  color: #ff7af6 !important;
-}
-
-a.nav-link.active:hover {
-  color: #F8F8F8 !important;
-}
-
-div.to-fade-in {
-  display: none;
-}
-
-div.title-to-fade-in {
-  display: none;
-}
-
-div.subtitle-to-fade-in {
-  display: none;
-}
-
-p.text-ef {
-  color: #f3aee5 !important;
-  font-weight: bold;
-}
-
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
