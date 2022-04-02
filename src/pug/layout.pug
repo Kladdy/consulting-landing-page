@@ -34,16 +34,21 @@ html(lang='sv')
             
             
     body(style="background-color: #212529")
-        .text-white.d-flex.justify-content-center
-            .mt-2
-                div.mx-4.i18nelement(data-i18n='languages.current') Loading
+        .text-white.mt-2
+            .d-flex.justify-content-center
                 div
-                    label Change language:
-                    select(id='langSelector' disabled='true' name='lang')
-                        option.i18nelement(value='sv' data-i18n='languages.sv') Swedish1
-                        option.i18nelement(value='en' data-i18n='languages.en') English1
-                
-            block content
+                    .mx-4.i18nelement(data-i18n='languages.current') Loading
+                div
+                    label.i18nelement(data-i18n='languages.choose_language') 
+                    select.mx-2(id='langSelector' disabled='true' name='lang')
+                        option.i18nelement(value='sv' data-i18n='languages.sv') Swedish
+                        option.i18nelement(value='en' data-i18n='languages.en') English
+
+        hr(class="solid" style="border-top: 1px solid gray")
+
+        .text-white.d-flex.justify-content-center
+            .mt-2    
+                block content
 
             // Bootstrap core JS
             script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')

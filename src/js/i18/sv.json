@@ -3,7 +3,8 @@
     {
         "sv": "Svenska",
         "en": "English",
-        "current": "Svenska"
+        "current": "Svenska",
+        "choose_language": "Välj språk"
     }
 }
     
