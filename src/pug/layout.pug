@@ -34,24 +34,34 @@ html(lang='sv')
         // Documentation: https://animate.style
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css")
 
+        // Bootstrap toggle
+        link(href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet")
+        script(src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js")
+
+        // Flags
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet")
+
         block head
             
             
-    body(style="background-color: #212529")
-        .text-white.mt-2
-            .d-flex.justify-content-center
-                div
-                    .mx-4.i18nelement(data-i18n='languages.current') Loading
-                div
-                    label.i18nelement(data-i18n='languages.choose_language') 
-                    select.mx-2(id='langSelector' disabled='true' name='lang')
-                        option.i18nelement(value='sv' data-i18n='languages.sv') Swedish
-                        option.i18nelement(value='en' data-i18n='languages.en') English
+    //- body
+    body.bg-dark.text-white
 
+        // Language selector
+        .mt-3
+            .d-flex.flex-row-reverse
+                div.mx-3
+                    input(id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<span class='flag-icon flag-icon-gb'/>" data-off="<span class='flag-icon flag-icon-se'/>" data-onstyle="primary" data-offstyle="warning" data-size="small")
+                div
+                    input(id="darkmode-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<i class='bi bi-brightness-high'/>" data-off="<i class='bi bi-moon-fill'/>" data-onstyle="light" data-offstyle="dark" data-size="small")
+
+        // Solid line under header
         hr(class="solid" style="border-top: 1px solid gray")
 
-        .text-white.d-flex.justify-content-center
-            .mt-2    
+        // Content
+        .mt-2 
+            .d-flex.justify-content-center
+            
                 block content
 
             // Bootstrap core JS

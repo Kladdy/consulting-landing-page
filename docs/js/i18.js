@@ -31,11 +31,16 @@ async function i18Loader() {
     updateContent();
   });
   
-  const langSelector = document.getElementById("langSelector");
-  langSelector.removeAttribute("disabled");
-  langSelector.addEventListener("change", (e) => {
-    i18next.changeLanguage(e.target.value);
-  });
+  // If language toggle is clicked
+  $(function() {
+    $('#language-toggle-event').on("change", function() {
+      if ($(this).prop('checked')) {
+        i18next.changeLanguage("sv");
+      } else {
+        i18next.changeLanguage("en");
+      }
+    })
+  })
 }
 
 i18Loader();
