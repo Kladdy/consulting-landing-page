@@ -6,8 +6,29 @@ block head
     meta(name='description', content='')
 
 block content
-    h3.p-4(class="animate__animated animate__fadeInUp") 
-        .i18nelement(data-i18n='under_construction') Stjärnholm Consulting
+    h2.text-center.p-4(class="animate__animated animate__fadeInUp") 
+        .i18nelement(data-i18n='title')
+
+
+    //- div.container.areas-boxes
+    //-     .row
+    //-         .col-lg-3.col-md-4.col-sm-12
+    //-             | Hej 1
+    //-         .col-lg-3.col-md-4.col-sm-12
+    //-             | Hej 2
+    //-         .col-lg-3.col-md-4.col-sm-12
+    //-             | Hej 3
+    //-         .col-lg-3.col-md-4.col-sm-12
+    //-             | Hej 4
+    div.d-flex.flex-wrap
+        div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow")
+            | Hej 1
+        div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-1s")
+            | Hej 2
+        div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-2s")
+            | Hej 3
+        div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-3s")
+            | Hej 4
 
     
 
