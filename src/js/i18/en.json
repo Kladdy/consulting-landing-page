@@ -7,6 +7,20 @@
         "choose_language": "Choose language"
     },
     "under_construction": "Stjärnholm Consulting - Under construction... 🏗",
+    "areas": {
+        "it_and_websites": {
+            "title": "IT & Websites",
+            "subtitle": "Developing, support, design, maintenance, hosting, modern&nbsp;frameworks"
+        },
+        "smart_home": {
+            "title": "Smart Home",
+            "subtitle": "Installation, maintenance, developing, Zigbee & Home&nbsp;Assistant"
+        },
+        "physics": {
+            "title": "Physics",
+            "subtitle": "Nuclear and particle physics, statistics, simulations, numerical&nbsp;methods"
+        }
+    },
     "projects": {
         "title": "Projects"
     },

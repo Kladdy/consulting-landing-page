@@ -6,18 +6,27 @@ block head
     meta(name='description', content='')
 
 block content
-    h2.text-center.p-4.index-logo-animate(class="animate__animated animate__fadeIn") 
+    h2.text-center.p-4.px-5.index-logo-animate(class="animate__animated animate__fadeIn") 
         img.text-center.index-logo(src="assets/img/logo/B4_no_bg.svg", alt="Stjärnholm Consulting")
 
     //- 
-
-    div.d-flex.flex-wrap.justify-content-evenly.py-5
-        div.areas-boxes.areas-boxes-animation1(class="animate__animated")
-            | Hej 1
-        div.areas-boxes.areas-boxes-animation2(class="animate__animated")
-            | Hej 2
-        div.areas-boxes.areas-boxes-animation3(class="animate__animated")
-            | Hej 3
+    div.text-center.py-5
+        .d-flex.flex-wrap.justify-content-evenly
+            div.areas-boxes.areas-boxes-animation1.bg-gradient(class="animate__animated")
+                .features-icons-item.mx-auto.mb-1
+                    i.fas.fa-code.fa-6x.mx-auto.mt-5.mb-4.areas-icon
+                    h3.areas-title.i18nelement(data-i18n='areas.it_and_websites.title')
+                    p.lead.mx-3.i18nelement(data-i18n='areas.it_and_websites.subtitle')
+            div.areas-boxes.areas-boxes-animation2.bg-gradient(class="animate__animated")
+                .features-icons-item.mx-auto.mb-1
+                    i.fas.fa-house-night.fa-6x.mx-auto.mt-5.mb-4.areas-icon
+                    h3.areas-title.i18nelement(data-i18n='areas.smart_home.title')
+                    p.lead.mx-3.i18nelement(data-i18n='areas.smart_home.subtitle')
+            div.areas-boxes.areas-boxes-animation3.bg-gradient(class="animate__animated")
+                .features-icons-item.mx-auto.mb-1
+                    i.far.fa-atom.fa-6x.mx-auto.mt-5.mb-4.areas-icon
+                    h3.areas-title.i18nelement(data-i18n='areas.physics.title')
+                    p.lead.mx-3.i18nelement(data-i18n='areas.physics.subtitle')
 
     div.bg-white.text-dark.text-center.py-5
         h2.i18nelement(data-i18n='projects.title')

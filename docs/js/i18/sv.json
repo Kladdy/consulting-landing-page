@@ -6,6 +6,27 @@
         "current": "Svenska",
         "choose_language": "Välj språk"
     },
-    "under_construction": "Stjärnholm Consulting - Under konstruktion... 🏗"
+    "under_construction": "Stjärnholm Consulting - Under konstruktion... 🏗",
+    "title": "Stjärnholm Consulting",
+    "areas": {
+        "it_and_websites": {
+            "title": "IT & hemsidor",
+            "subtitle": "Utveckling, support, design, underhåll, hosting, moderna&nbsp;ramverk"
+        },
+        "smart_home": {
+            "title": "Smarta hem",
+            "subtitle": "Installation, underhåll, utveckling, Zigbee & Home&nbsp;Assistant"
+        },
+        "physics": {
+            "title": "Fysik",
+            "subtitle": "Kärn- och partikelfysik, statistik, simulering, numeriska&nbsp;metoder"
+        }
+    },
+    "projects": {
+        "title": "Projekt"
+    },
+    "contact": {
+        "title": "Kontakt"
+    }
 }
     

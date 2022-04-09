@@ -8,7 +8,20 @@
     },
     "under_construction": "Stjärnholm Consulting - Under konstruktion... 🏗",
     "title": "Stjärnholm Consulting",
-    "subtitle": "IT-tjänster, hemsidor, smarta hem, fysik",
+    "areas": {
+        "it_and_websites": {
+            "title": "IT & hemsidor",
+            "subtitle": "Utveckling, support, design, underhåll, hosting, moderna&nbsp;ramverk"
+        },
+        "smart_home": {
+            "title": "Smarta hem",
+            "subtitle": "Installation, underhåll, utveckling, Zigbee & Home&nbsp;Assistant"
+        },
+        "physics": {
+            "title": "Fysik",
+            "subtitle": "Kärn- och partikelfysik, statistik, simulering, numeriska&nbsp;metoder"
+        }
+    },
     "projects": {
         "title": "Projekt"
     },
