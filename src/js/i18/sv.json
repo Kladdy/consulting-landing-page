@@ -8,6 +8,12 @@
     },
     "under_construction": "Stjärnholm Consulting - Under konstruktion... 🏗",
     "title": "Stjärnholm Consulting",
-    "subtitle": "IT-tjänster, hemsidor, smarta hem, fysik"
+    "subtitle": "IT-tjänster, hemsidor, smarta hem, fysik",
+    "projects": {
+        "title": "Projekt"
+    },
+    "contact": {
+        "title": "Kontakt"
+    }
 }
     

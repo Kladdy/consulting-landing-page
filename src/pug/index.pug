@@ -6,32 +6,25 @@ block head
     meta(name='description', content='')
 
 block content
-    h2.text-center.p-4(class="animate__animated animate__fadeInUp") 
-        .i18nelement(data-i18n='title')
+    h2.text-center.p-4.index-logo-animate(class="animate__animated animate__fadeIn") 
+        img.text-center.index-logo(src="assets/img/logo/B4_no_bg.svg", alt="Stjärnholm Consulting")
 
+    //- 
 
-    //- div.container.areas-boxes
-    //-     .row
-    //-         .col-lg-3.col-md-4.col-sm-12
-    //-             | Hej 1
-    //-         .col-lg-3.col-md-4.col-sm-12
-    //-             | Hej 2
-    //-         .col-lg-3.col-md-4.col-sm-12
-    //-             | Hej 3
-    //-         .col-lg-3.col-md-4.col-sm-12
-    //-             | Hej 4
-    div.d-flex.flex-wrap
-        div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow")
+    div.d-flex.flex-wrap.justify-content-evenly.py-5
+        div.areas-boxes.areas-boxes-animation1(class="animate__animated")
             | Hej 1
-        div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-1s")
+        div.areas-boxes.areas-boxes-animation2(class="animate__animated")
             | Hej 2
-        div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-2s")
+        div.areas-boxes.areas-boxes-animation3(class="animate__animated")
             | Hej 3
-        div.areas-boxes(class="animate__animated animate__fadeInRight animate__slow animate__delay-3s")
-            | Hej 4
 
-    div.bg-white.text-dark
-        | Tjena
+    div.bg-white.text-dark.text-center.py-5
+        h2.i18nelement(data-i18n='projects.title')
+
+    div.bg-dark.text-white.text-center.py-5
+        h2.i18nelement(data-i18n='contact.title')
+
 
     
 
