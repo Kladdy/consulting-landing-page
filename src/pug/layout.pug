@@ -42,29 +42,33 @@ html(lang='sv')
         // Flags
         link(href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet")
 
-        block head
-            
-            
-    //- body
-    body.bg-dark.text-white
-
-        // Language selector
-        .mt-3
-            .d-flex.flex-row-reverse
-                div.mx-3
-                    input(id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<span class='fa-lg flag-icon flag-icon-gb'/>" data-off="<span class='fa-lg flag-icon flag-icon-se'/>" data-onstyle="primary" data-offstyle="warning" data-size="mini")
-                div
-                    input(id="darkmode-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<i class='fa-lg bi bi-brightness-high-fill'/>" data-off="<i class='fa-lg bi bi-moon-fill'/>" data-onstyle="light" data-offstyle="dark" data-size="mini")
-
-        // Solid line under header
-        hr(class="solid" style="border-top: 1px solid gray")
-
-        // Content
-        .mt-2 
-            block content
+        // i18
+        script(src='js/i18.js')
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
 
-        // i18
-        script(src='js/i18.js')
+        block head
+            
+            
+    //- body
+    body.bg-dark.bg-gradient.text-white
+        //- Wrapper for keeping the footer at bottom (https://radu.link/make-footer-stay-bottom-page-bootstrap/)
+        .d-flex.flex-column.min-vh-100
+            // Navbar
+            .mt-3
+                .d-flex.flex-row-reverse
+                    div.mx-3
+                        input(id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<span class='fa-lg flag-icon flag-icon-gb'/>" data-off="<span class='fa-lg flag-icon flag-icon-se'/>" data-onstyle="primary" data-offstyle="warning" data-size="mini")
+                    //- div
+                    //-     input(id="darkmode-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<i class='fa-lg bi bi-brightness-high-fill'/>" data-off="<i class='fa-lg bi bi-moon-fill'/>" data-onstyle="light" data-offstyle="dark" data-size="mini")
+
+            // Solid line under header
+            hr(class="solid" style="border-top: 1px solid gray")
+
+            // Content
+            .mt-2 
+                block content
+
+            footer.mt-auto
+                include footer
