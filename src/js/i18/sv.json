@@ -25,7 +25,16 @@
         }
     },
     "projects": {
-        "title": "Projekt"
+        "title": "Projekt",
+        "smab": {
+            "description": "Drift och underhåll av hemsida"
+        },
+        "stalls": {
+            "description": "Drift och underhåll av hemsida"
+        },
+        "smahopp": {
+            "description": "Drift och underhåll av hemsida"
+        }
     },
     "contact": {
         "title": "Kontakt"

@@ -24,7 +24,16 @@
         }
     },
     "projects": {
-        "title": "Projects"
+        "title": "Projects",
+        "smab": {
+            "description": "Operation and maintenance of website"
+        },
+        "stalls": {
+            "description": "Operation and maintenance of website"
+        },
+        "smahopp": {
+            "description": "Operation and maintenance of website"
+        }
     },
     "contact": {
         "title": "Contact"
