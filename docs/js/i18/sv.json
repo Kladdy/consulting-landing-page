@@ -8,6 +8,8 @@
     },
     "under_construction": "Stjärnholm Consulting - Under konstruktion... 🏗",
     "title": "Stjärnholm Consulting",
+    "all_rights_reserved": "Alla rättigheter förbehålles.",
+    "maintained_by": "Hemsidan underhålls av",
     "areas": {
         "it_and_websites": {
             "title": "IT & hemsidor",
@@ -15,7 +17,7 @@
         },
         "smart_home": {
             "title": "Smarta hem",
-            "subtitle": "Installation, underhåll, utveckling, Zigbee & Home&nbsp;Assistant"
+            "subtitle": "Installation, underhåll, utveckling, Zigbee, Home&nbsp;Assistant"
         },
         "physics": {
             "title": "Fysik",
@@ -23,7 +25,16 @@
         }
     },
     "projects": {
-        "title": "Projekt"
+        "title": "Projekt",
+        "smab": {
+            "description": "Drift och underhåll av hemsida"
+        },
+        "stalls": {
+            "description": "Drift och underhåll av hemsida"
+        },
+        "smahopp": {
+            "description": "Drift och underhåll av hemsida"
+        }
     },
     "contact": {
         "title": "Kontakt"

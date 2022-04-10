@@ -11339,6 +11339,19 @@ textarea.form-control-lg {
           animation-delay: 3.5s;
 }
 
+.projects-title {
+  text-decoration: none;
+}
+
+.projects-title:hover {
+  text-decoration: underline !important;
+}
+
+.contact-links:hover {
+  text-decoration: underline !important;
+  color: bisque;
+}
+
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;

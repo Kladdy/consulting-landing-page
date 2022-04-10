@@ -83,12 +83,95 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white text-dark text-center py-5"><h2 class="i18nelement" data-i18n="projects.title"></h2></div>
-                <div class="bg-dark text-white text-center py-5"><h2 class="i18nelement" data-i18n="contact.title"></h2></div>
+                <div class="bg-white text-dark text-center py-5">
+                    <h2 class="i18nelement" data-i18n="projects.title"></h2>
+                    <div class="carousel carousel-dark slide" id="carouselExampleCaptions" data-bs-ride="carousel" data-bs-touch="false">
+                        <div class="carousel-indicators">
+                            <button class="active" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-current="true" aria-label="Stjärnholm Equestrian"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Stjärnholm Medical"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Små Hopp"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div style="min-height: 300px">
+                                    <img class="d-block mx-auto px-4 py-5" src="assets/img/projects/stalls_icon.png" alt="Stjärnholm Equestrian" style="max-width: 100%; height: auto" />
+                                    <div class="carousel-caption d-block">
+                                        <h5><a class="projects-title" href="https://stalls.se" target="_blank">Stjärnholm Equestrian</a></h5>
+                                        <p class="i18nelement" data-i18n="projects.stalls.description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div style="min-height: 300px">
+                                    <img class="d-block mx-auto px-4 py-5" src="assets/img/projects/stjarnholmmedical_logo.jpg" alt="Stjärnholm Medical" style="max-width: 100%; height: auto" />
+                                    <div class="carousel-caption d-block">
+                                        <h5><a class="projects-title" href="https://stjarnholmmedical.se" target="_blank">Stjärnholm Medical</a></h5>
+                                        <p class="i18nelement" data-i18n="projects.smab.description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div style="min-height: 300px">
+                                    <img class="d-block mx-auto px-4 py-5" src="assets/img/projects/smahopp_logo.png" alt="Små Hopp" style="max-width: 100%; height: auto" />
+                                    <div class="carousel-caption d-block">
+                                        <h5><a class="projects-title" href="https://smahopp.se" target="_blank">Små Hopp</a></h5>
+                                        <p class="i18nelement" data-i18n="projects.smahopp.description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark text-white text-center py-5">
+                    <h2 class="mb-2 i18nelement" data-i18n="contact.title"></h2>
+                    <p class="font-weight-light mb-3">
+                        <i class="bi-envelope m-auto text-primary pr-2"></i>
+                        <a class="contact-links text-white" href="mailto:consulting@stjarnholm.com" style="text-decoration: none">consulting@stjarnholm.com</a>
+                        <br />
+                        <i class="bi-facebook m-auto text-primary pr-2"></i>
+                        <a class="contact-links text-white" href="https://fb.me/stjarnholmconsulting" style="text-decoration: none">Stjärnholm Consulting</a>
+                    </p>
+                </div>
             </div>
             <!-- Solid line over footer-->
-            <hr class="solid" style="border-top: 1px solid gray" />
-            <footer class="mt-auto">hejdå</footer>
+            <div class="bg-dark"><hr class="solid" style="border-top: 1px solid gray" /></div>
+            <!-- Footer-->
+            <div class="mt-auto">
+                <footer class="footer bg-dark">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                                <p class="text-muted small mb-4 mb-lg-0">
+                                    &copy; Stjärnholm Consulting 2022.
+                                    <span class="i18nelement" data-i18n="all_rights_reserved"></span>
+                                    <br />
+                                    <span class="i18nelement" data-i18n="maintained_by"></span>
+                                    <a href="https://sigfrid.me">Sigfrid Stjärnholm</a>
+                                    .
+                                </p>
+                            </div>
+                            <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-4">
+                                        <a href="https://fb.me/stjarnholmconsulting" target="_blank"><i class="bi-facebook fs-3"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="mailto:consulting@stjarnholm.com"><i class="bi-envelope fs-3"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
         </div>
     </body>
 </html>
