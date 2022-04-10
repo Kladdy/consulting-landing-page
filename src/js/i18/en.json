@@ -7,6 +7,8 @@
         "choose_language": "Choose language"
     },
     "under_construction": "Stjärnholm Consulting - Under construction... 🏗",
+    "all_rights_reserved": "All rights reserved.",
+    "maintained_by": "The website is maintained by",
     "areas": {
         "it_and_websites": {
             "title": "IT & Websites",
@@ -14,7 +16,7 @@
         },
         "smart_home": {
             "title": "Smart Home",
-            "subtitle": "Installation, maintenance, developing, Zigbee & Home&nbsp;Assistant"
+            "subtitle": "Installation, maintenance, developing, Zigbee, Home&nbsp;Assistant"
         },
         "physics": {
             "title": "Physics",
