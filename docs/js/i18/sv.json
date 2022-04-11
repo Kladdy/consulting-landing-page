@@ -26,6 +26,12 @@
     },
     "projects": {
         "title": "Projekt",
+        "owlstreet": {
+            "description": "Underkonsult, frontend och backend"
+        },
+        "jolix": {
+            "description": "Underkonsult, frontend och backend"
+        },
         "smab": {
             "description": "Drift och underhåll av hemsida"
         },

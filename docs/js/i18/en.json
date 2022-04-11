@@ -25,6 +25,12 @@
     },
     "projects": {
         "title": "Projects",
+        "owlstreet": {
+            "description": "Sub-consultant, frontend and backend"
+        },
+        "jolix": {
+            "description": "Sub-consultant, frontend and backend"
+        },
         "smab": {
             "description": "Operation and maintenance of website"
         },
