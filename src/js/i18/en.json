@@ -26,6 +26,9 @@
     },
     "projects": {
         "title": "Projects",
+        "marskalk": {
+            "description": "Development and operation"
+        },
         "owlstreet": {
             "description": "Sub-consultant, frontend and backend"
         },

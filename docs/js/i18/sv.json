@@ -27,6 +27,9 @@
     },
     "projects": {
         "title": "Projekt",
+        "marskalk": {
+            "description": "Utvecking och drift"
+        },
         "owlstreet": {
             "description": "Underkonsult, frontend och backend"
         },
